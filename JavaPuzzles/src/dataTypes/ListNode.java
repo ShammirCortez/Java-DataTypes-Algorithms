@@ -17,7 +17,7 @@ public class ListNode {
 		this.next = next;
 	}
 	
-	public static String print(ListNode temp) {
+	public static void print(ListNode temp) {
 		
 		StringBuilder builder = new StringBuilder();
 
@@ -30,7 +30,8 @@ public class ListNode {
 		
 		builder.append(" )");
 		
-		return builder.toString();
+		System.out.println(builder.toString());
+		
 	}
 	
 }
