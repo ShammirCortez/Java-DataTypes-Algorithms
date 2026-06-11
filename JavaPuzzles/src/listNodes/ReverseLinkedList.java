@@ -23,11 +23,11 @@ public class ReverseLinkedList {
 		listNodeCreation.next = new ListNode(5);
 		listNodeCreation = listNodeCreation.next;
 		
-		System.out.println(ListNode.print(toReverse));
+		ListNode.print(toReverse);
 		
 		ListNode reversedNode = reverseNodes(toReverse);
 		
-		System.out.println(ListNode.print(reversedNode));
+		ListNode.print(reversedNode);
 
 	}
 	
